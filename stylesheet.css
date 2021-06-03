@@ -1,0 +1,178 @@
+* {
+    display: blocks;
+  }
+  
+  #title {
+    display: none;
+  }
+  
+  .site-navigation-bar {
+    background-color: blue;
+    margin: 20px;
+    padding: 15px;
+  }
+  
+  aside {
+    margin-right: 450px;
+    width: 350px;
+    position: sticky;
+    max-height: auto;
+    color: whitesmoke;
+  }
+  
+  body {
+    display: inline-flex;
+    background: url("https://images.freeimages.com/images/large-previews/01a/technology-background-1632715.jpg")
+      no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: wheat;
+  }
+  
+  #navigation-button {
+    display: inline-flex;
+    background-color: crimson;
+    margin: 15px;
+    flex: flex;
+    justify-content: space-between;
+  }
+  .Projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  #applications {
+    display: flex;
+    /* flex: grid; */
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  .showcase {
+    /* display: grid; */
+    /* flex: row-fluid; */
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+  }
+  
+  #boxTwo {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #boxThree {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #CSS {
+    /* top: 0; */
+    /* left: 50px; */
+    /* right: 50px; */
+    width: 75%;
+    /* height: 15%; */
+    /* z-index: 10; */
+    /* flex-direction: row; */
+    /* flex-grow: 1; */
+    /* position: relative; */
+    /* text-align: center; */
+  }
+  
+  #zodiac {
+    /* top: 0;
+    left: 25px;
+    width: 25px;
+    height: 15px; */
+    /* z-index: 10; */
+    /* position: relative; */
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  #landing {
+    /* top: 0;
+    left: 0;
+    width: 25%;
+    height: 15%; */
+    /* z-index: 10; */
+    text-align: center;
+    justify-content: space-between;
+  }
+  #life-a,
+  #murray {
+    height: 75%;
+    width:75%;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-between;
+    
+  }
+  
+  .captions {
+    display: flex;
+  }
+  
+  footer {
+    position: fixed;
+    max-height: auto;
+    left: 0%;
+    bottom: 0;
+    width: 100%;
+    background-color: wheat;
+    color: blue;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fa {
+    padding: 5px;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  
+  #contact-me {
+    /* position: relative; */
+  }
+  
+  #email {
+    float: left;
+    position: static;
+  }
+  
+  .social {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 230px;
+    height: 42px;
+    justify-content: space-between;
+  }
+  .social li {
+    float: left;
+    display: block;
+  }
+  
+  @media screen and  (max-width: 600px) {
+    .inside {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+  
