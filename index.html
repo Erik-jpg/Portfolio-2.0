@@ -15,7 +15,8 @@
 
 <body>
 
-    <aside class="site-navigation-bar">
+    <aside class="site-navigation-bar ">
+        
         <div class="site-sidebar-inner">
             <img src="https://i.ibb.co/GWPPR8t/23668509-841127372723775-9055571650329706496-n.jpg"
                 alt="Black and White fractured image of my face." height="200px" width="125px">
@@ -35,12 +36,47 @@
         </div>
     </aside>
     <main>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
         <h2>I have sent you the link to this page because,</h2>
         <h3>I think your company would be nice to work with!</h3>
         <br>
         <h2>Projects</h2>
         <div class="box">
-            <div id="applications" class="showcase">
+            <div id="applications" class="showcase container-md">
                 <div class="box square">
                     <div id="CSS" class="Projects">
                         <a href="http://erik-jpg.github.io/CSS_Snippet-Cheatsheet/">
